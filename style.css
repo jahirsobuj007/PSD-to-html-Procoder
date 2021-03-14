@@ -1,0 +1,330 @@
+/* ================ 
+    Common CSS
+===================== */
+body, h1, h2, h3, h4, h5, h6, a, span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.b-1{
+    background-color: #F2F2F2;   
+}
+.t-1{color: #7B7B7B;}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* logo CSS HIDDEN */
+
+/* logo CSS HIDDEN END */
+/* ==================
+    Common CSS END
+ ==================== */
+
+ /*=======================================================
+                     HEADER SECTION
+    ======================================================= */
+ /* ============= top_menu_inner ===============  */
+ .header_area .row {background-color: #BA2E1F;}
+ .top_menu_inner {padding: 5px;}
+ .top_menu_inner ul {
+    padding: 0;
+    margin: 0;
+}
+ .top_menu_inner ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 5px;
+     border-right: 1px solid #ffe9dd;
+     line-height: 7px;
+ }
+ .top_menu_inner ul li:nth-child(4){border: none;}
+ .top_menu_inner ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ddd;
+    padding: 7px;
+    transition: .4s;
+    font-weight: 600;
+}
+
+ .top_menu_inner ul li a:hover{
+    color: #fff;
+ }
+ .top_menu_serch {
+    
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+}
+.top_menu_serch form {
+    width: 220px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+}
+.top_menu_serch input {
+    border: none;
+    padding:0px 10px;
+    font-size: 14px;
+    
+}
+.top_menu_serch i {
+    background-color: #a43226;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    transition: .4s;
+}
+.top_menu_serch i:hover{
+    background-color: #fff;
+    color: #ddd;
+}
+/* sosial area */
+.social_icon_area{}
+.social_icon_area ul {}
+.social_icon_area ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.social_icon_area ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #393939;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    transition: .3s;
+}
+.social_icon_area ul li a:hover{
+    color: #fff;
+    background-color: #F78433;
+}
+
+ /* ============= top_menu_inner ===============END  */
+ /* =======================================
+             Header Drop-down-Menu 
+    =======================================*/
+    .ul_dropdown_menu {}
+    .ul_dropdown_menu li {
+        position: relative;
+    }
+    .ul_dropdown_menu li a{
+        text-decoration: none;
+        padding: 5px;
+        color: #ffe9dd;
+        font-weight: 600;
+        text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    }
+    .ul_dropdown_menu li a:hover{
+        color: #fff;
+        
+        text-shadow: 0px 0px 3px #000;
+    }
+
+    .ul_dropdown_menu li ul {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        top: 60px;
+        width: 250px;
+        background-color: #FFC107C4;
+        padding-left: 0px;
+
+       
+        visibility: hidden;
+        opacity: 0;
+        transition:all .3s ease-in-out ;
+    }
+    .ul_dropdown_menu li:hover ul {
+        visibility: visible;
+        opacity: 1;
+        top: 40px;
+    }
+    .ul_dropdown_menu li ul li {
+        list-style: none;
+        text-align: center;
+        margin: 2px;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        flex-direction: column;
+        
+    }
+    
+    .ul_dropdown_menu li ul li a{}
+/*=======================================================
+                     HEADER SECTION END
+======================================================= */
+/* hearo_area */
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_text h1{
+    font-size: 95px;
+}
+
+/*======================================================
+                     Mid content 
+======================================================== */
+/* About Us section */
+.about_text{
+    font-size: 16px;
+    color: #7d7c7c;
+    text-align: justify;
+    line-height: 1.7em;
+}
+/* service section */
+.service_content {
+   
+}
+.service_content ul {
+    padding: 0;
+}
+.service_content ul li {list-style: none;}
+.service_content ul li span {
+    font-size: 75px;
+    height: 100%;
+    color: purple;
+    float: left;
+    margin: 10px 14px;
+}
+.service_content ul li strong {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.service_content ul li p {
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #7d7c7c;
+    text-align: justify;
+    margin-top: 5px;
+}
+/* clint_section */
+.clint_section {}
+.clint_section ul{}
+.clint_section ul li{list-style: none; position: relative;}
+.clint_section ul li span {
+    position: absolute;
+    font-size: 50px;
+    top: -20px;
+    left: 0px;
+    color: #ddd;
+}.clint_section ul li span {position: absolute;}
+
+.clint_section ul li strong {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    color: #4f4f4f;
+    font-weight: 500;
+    margin: 20px;
+}
+.clint_section ul li p {
+    font-size: 18px;
+    color: #9e9d9e;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.clint_section ul li a{
+    color: #df4a59;;
+    display: block;
+    text-align: right;
+}
+
+/* ================
+    Media-section
+=================== */
+
+.m_tweeter {}
+.m_tweeter h2 {
+    font-size: 20px;
+    color: #5d6266;
+}
+
+.m_tweeter_text{}
+.m_tweeter_text p{
+    text-align: justify;
+}
+.m_tweeter_text p a{
+    text-decoration: none;
+    color: #BA2E1F;
+}
+/* list */
+.media_link h2 {
+    font-size: 20px;
+    color: #5d6266;
+}
+.media_link li {
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    color: #6c757d;
+}
+.media_link li span{
+    margin-right: 10px;
+    color: #BA2E1F;
+    
+}
+.media_link ul {
+    padding-left: 0;
+}
+/* Blog-post */
+.m_blog_area {}
+.m_blog_area h2 {
+    font-size: 20px;
+    color: #5d6266;
+}
+.m_blog_area span {
+    color: #5d6266;
+    font-size: 14px;
+}
+.m_blog_area p {
+    word-spacing: 1px;
+    color: #5d6266;
+    margin: 12px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.m_blog_area a {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+    color: #a43226;
+}
+.m_blog_area h4 {
+    font-size: 18px;
+    color: #374551;
+    margin-bottom: 0;
+}
+/* form */
+.m_contact h2{
+    font-size: 20px;
+    color: #5d6266;
+    margin-bottom: 20px;
+}
+
+/* ================
+    Media-section END
+=================== */
+footer{
+    background-color: #BA2E1F;
+    color: #ddd;
+}
+
+.jahir{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 3px #000;
+}

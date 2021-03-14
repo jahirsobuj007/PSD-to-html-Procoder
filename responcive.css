@@ -1,0 +1,64 @@
+@media all and (min-width:200px) and (max-width:768px) {
+    .hero_img img {
+        width: 50%;
+    }
+}
+/* =========== iPad Mini =========== */
+@media all and (min-width:200px) and (max-width:1024px) {
+    .hero_img {text-align: center;}
+    .hero_img img {
+        width: 50%;
+        
+    }
+    .hero_text h1{
+        font-size: 40px;
+    }
+    .about_section img{
+        text-align: center;
+    }
+/* about-section */
+    .about_section h2 {
+        font-size: 20px;
+    }
+
+    .about_section p{
+        font-size: 14px;
+    }
+    .about_section a{
+        font-size: 14px;
+    }
+
+/* service-section */
+.service_content h2{
+    font-size: 20px;
+}
+.service_content ul li span {
+    font-size: 35px;}
+
+.service_content ul li strong {
+    
+    margin-top: 5px;
+    font-size: 16px;
+}
+.service_content ul li p {
+    font-size: 12px;}
+.service_content a {
+    font-size: 12px;}
+
+/* clint-section  */
+.clint_section h2{
+    font-size: 20px;
+}
+.clint_section ul li span {
+    font-size: 16px;
+    top: 0px;}
+.clint_section ul li strong {
+    display: block;
+    font-size: 14px;}
+    .clint_section ul li p {
+        font-size: 12px;
+    }
+    .clint_section ul li a {
+        font-size: 12px;}
+
+}
